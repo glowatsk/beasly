@@ -65,9 +65,7 @@ client.on('message', (msg) => {
         });
         msg.reply(talentMessage);
       })
-      .catch((err) => {
-        console.log(err);
-      });
+      .catch(err => console.log(err));
   }
 
   if (command === 'ratings') {
